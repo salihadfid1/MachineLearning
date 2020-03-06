@@ -1,0 +1,15 @@
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import pickle
+
+
+url = 'https://raw.githubusercontent.com/salihadfid1/MachineLearning/master/News_dataset.csv'
+
+##read in data
+df = pd.read_csv(url, sep=';')
+
+
+#look at dimensions
+
+df.shape
